@@ -9,19 +9,19 @@ local Supported = {
 	_G.GamePlaceId
 	["Blox Fruits"]
 	] = {
-		[1] = "https://pastebin.com/raw/gQKE1SW2",
+		[1] = "https://pastebin.com/raw/XNyN1Wcj",
 	},
 	[
 	_G.GamePlaceId
 	["King Legacy"]
 	] = {
-		[1] = "https://pastebin.com/raw/gQKE1SW2",
+		[1] = "https://pastebin.com/raw/XNyN1Wcj",
 	},
 	[
 	_G.GamePlaceId
 	["Build a Boat"]
 	] = {
-		[1] = "https://pastebin.com/raw/gQKE1SW2",
+		[1] = "https://pastebin.com/raw/XNyN1Wcj",
 	},
 }
 
