@@ -1,0 +1,31 @@
+_G.GamePlaceId = {
+	["Blox Fruits"] = 2753915549,
+	["King Legacy"] = 4520749081,
+	["Build a Boat"] = 537413528
+}
+
+local Supported = {
+	[
+	_G.GamePlaceId
+	["Blox Fruits"]
+	] = {
+		[1] = "https://pastebin.com/raw/2s5EBCb8",
+	},
+	[
+	_G.GamePlaceId
+	["King Legacy"]
+	] = {
+		[1] = "https://pastebin.com/raw/sbE9zRzX",
+	},
+	[
+	_G.GamePlaceId
+	["Build a Boat"]
+	] = {
+		[1] = "https://raw.githubusercontent.com/SandaFrosty/Dino-Script/main/Build-Boat-For-Treasure",
+	},
+}
+for i,v in pairs(Supported) do
+	if i == game.PlaceId then
+		loadstring(game:HttpGet(v[1]))()
+	end
+end
